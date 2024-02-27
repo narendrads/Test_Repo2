@@ -1,6 +1,7 @@
 import './netflixindex.css';
 import { NetflixHeder } from '../netflixheder/netflixhede';
 import { NetflixMain } from '../netflixmain/netflixmain';
+import { Footer } from '../netflixfooter/netflixfooter';
 
 export function NetflixIndext(){
     return(
@@ -12,6 +13,9 @@ export function NetflixIndext(){
           <NetflixMain/>
           </div>
            </main>
+          </div>
+          <div>
+        <Footer/>
           </div>
           </div>
     )
